@@ -1,0 +1,112 @@
+
+body {
+  background: #F7F9FC;
+  color: #040F0F;
+  font-family: helvetica;
+  font-weight: 100;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 50px;
+
+}
+
+a {
+  cursor: pointer;
+}
+
+h1 {
+color: #040F0F;
+font-family: helvetica;
+font-weight: 100;
+}
+
+h2 {
+color: #040F0F;
+font-family: Arial, Helvetica, sans-serif
+font-weight: 50;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.card-white {
+    background-color: white;
+    color: #040F0F;
+    font-family: Helvetica;
+    font-weight: 100;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+}
+
+.footer {
+    background-color: white;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+}
+
+.bouton {
+    background-color: #676d3e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 50px 20px;
+}
+
+.bouton:hover {
+  background-color:black;
+  color:white;
+}
+.list-inline li {
+
+  list-style: none;
+  padding: 40px;
+  font-size: 50px;
+  }
+  ul {
+  display: inline-flex;
+  padding-inline-start: 40px;
+}
+
+.list-inline a {
+  color: #676d3e;
+}
+
+.list-inline a:hover {
+  background-color:white;
+  color:lightgrey;
+}
